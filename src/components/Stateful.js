@@ -1,5 +1,4 @@
 import React from "react";
-
 export default class Stateful extends React.Component {
   state = {
     name: "John",
