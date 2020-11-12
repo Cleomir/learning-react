@@ -17,6 +17,16 @@ export default class Nested extends Component {
     });
   };
 
+  componentDidMount = () => {
+    console.log("Component mounted");
+  };
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log("Component updated");
+    console.log("Previous props: ", prevProps);
+    console.log("Previous state: ", prevState);
+  }
+
   render() {
     return (
       <div>
