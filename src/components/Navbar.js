@@ -1,14 +1,16 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <ul>
       <li>
-        <a href="/">Home</a>
+        <NavLink exact to="/">Home</NavLink>
       </li>
       <li>
-        <a href="/about">About</a>
+        <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>
   );
