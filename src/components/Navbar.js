@@ -1,10 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  setTimeout(() => props.history.push("/contact"), 2000);
   return (
     <ul>
       <li>
-        <NavLink exact to="/">Home</NavLink>
+        <NavLink exact to="/">
+          Home
+        </NavLink>
       </li>
       <li>
         <NavLink to="/about">About</NavLink>
@@ -16,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);
