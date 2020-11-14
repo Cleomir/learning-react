@@ -1,7 +1,7 @@
 import { NavLink, withRouter } from "react-router-dom";
 
 const Navbar = (props) => {
-  setTimeout(() => props.history.push("/contact"), 2000);
+  // setTimeout(() => props.history.push("/contact"), 2000);
   return (
     <ul>
       <li>
@@ -14,6 +14,9 @@ const Navbar = (props) => {
       </li>
       <li>
         <NavLink to="/contact">Contact</NavLink>
+      </li>
+      <li>
+        <NavLink to="/hoc">HOC</NavLink>
       </li>
     </ul>
   );

@@ -17,6 +17,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import HocTest from "./components/HocTest";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/hoc" component={HocTest} />
       </div>
     </BrowserRouter>
   );
