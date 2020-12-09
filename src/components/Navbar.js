@@ -18,6 +18,9 @@ const Navbar = (props) => {
       <li>
         <NavLink to="/hoc">HOC</NavLink>
       </li>
+      <li>
+        <NavLink to="/axios">Axios</NavLink>
+      </li>
     </ul>
   );
 };
