@@ -19,6 +19,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import HocTest from "./components/HocTest";
 import Axios from "./components/Axios";
+import RouteParameters from "./components/RouteParameters";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/contact" component={Contact} />
         <Route path="/hoc" component={HocTest} />
         <Route path="/axios" component={Axios} />
+        <Route path="/:id" component={RouteParameters} />
       </div>
     </BrowserRouter>
   );

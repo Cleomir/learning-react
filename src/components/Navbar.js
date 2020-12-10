@@ -21,6 +21,9 @@ const Navbar = (props) => {
       <li>
         <NavLink to="/axios">Axios</NavLink>
       </li>
+      <li>
+        <NavLink to="/123">Route Parameters</NavLink>
+      </li>
     </ul>
   );
 };
