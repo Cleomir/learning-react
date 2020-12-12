@@ -24,6 +24,9 @@ const Navbar = (props) => {
       <li>
         <NavLink to="/123">Route Parameters</NavLink>
       </li>
+      <li>
+        <NavLink to="/picture">Picture</NavLink>
+      </li>
     </ul>
   );
 };

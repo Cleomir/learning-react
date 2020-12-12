@@ -20,6 +20,7 @@ import Contact from "./components/Contact";
 import HocTest from "./components/HocTest";
 import Axios from "./components/Axios";
 import RouteParameters from "./components/RouteParameters";
+import Picture from "./components/Picture";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/hoc" component={HocTest} />
           <Route path="/axios" component={Axios} />
+          <Route path="/picture" component={Picture} />
           <Route path="/:id" component={RouteParameters} />
         </Switch>
       </div>
