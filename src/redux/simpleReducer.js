@@ -1,5 +1,10 @@
 const initialState = {
-  posts: [],
+  posts: [
+    {
+      title: "hello redux",
+      body: "post body",
+    },
+  ],
 };
 
 const simpleReducer = (state = initialState, action) => {
