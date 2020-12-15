@@ -27,6 +27,9 @@ const Navbar = (props) => {
       <li>
         <NavLink to="/picture">Picture</NavLink>
       </li>
+      <li>
+        <NavLink to="/redux">Redux</NavLink>
+      </li>
     </ul>
   );
 };

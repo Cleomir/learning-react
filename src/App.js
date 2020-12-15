@@ -21,6 +21,7 @@ import HocTest from "./components/HocTest";
 import Axios from "./components/Axios";
 import RouteParameters from "./components/RouteParameters";
 import Picture from "./components/Picture";
+import ReduxState from "./components/ReduxState";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/hoc" component={HocTest} />
           <Route path="/axios" component={Axios} />
           <Route path="/picture" component={Picture} />
+          <Route path="/redux" component={ReduxState} />
           <Route path="/:id" component={RouteParameters} />
         </Switch>
       </div>
