@@ -19,9 +19,10 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import HocTest from "./components/HocTest";
 import Axios from "./components/Axios";
-import RouteParameters from "./components/RouteParameters";
+// import RouteParameters from "./components/RouteParameters";
 import Picture from "./components/Picture";
 import ReduxState from "./components/ReduxState";
+import ReduxRouteParameters from "./components/ReduxRouteParameters";
 
 const App = () => {
   return (
@@ -36,7 +37,8 @@ const App = () => {
           <Route path="/axios" component={Axios} />
           <Route path="/picture" component={Picture} />
           <Route path="/redux" component={ReduxState} />
-          <Route path="/:id" component={RouteParameters} />
+          {/* <Route path="/:id" component={RouteParameters} /> */}
+          <Route path="/:id" component={ReduxRouteParameters} />
         </Switch>
       </div>
     </BrowserRouter>

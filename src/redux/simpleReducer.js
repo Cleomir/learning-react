@@ -1,8 +1,14 @@
 const initialState = {
   posts: [
     {
-      title: "hello redux",
-      body: "post body",
+      id: 1,
+      title: "hello redux 1",
+      body: "post body 1",
+    },
+    {
+      id: 2,
+      title: "hello redux 2",
+      body: "post body 2",
     },
   ],
 };

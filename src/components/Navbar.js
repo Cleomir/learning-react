@@ -21,9 +21,9 @@ const Navbar = (props) => {
       <li>
         <NavLink to="/axios">Axios</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to="/123">Route Parameters</NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink to="/picture">Picture</NavLink>
       </li>
